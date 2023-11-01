@@ -1,0 +1,23 @@
+.button {
+  width: auto;
+}
+
+.button:disabled {
+  background-color: rgb(178, 172, 172);
+  color: #1c1111;
+  cursor: not-allowed;
+}
+
+form {
+  margin: 0 1rem;
+}
+
+.send-success,
+label[for="message"] {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
